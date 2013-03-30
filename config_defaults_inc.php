@@ -750,7 +750,7 @@
 	 * @global string $g_logo_image
 	 */
 	//$g_logo_image			= 'images/mantis_logo.png';
-
+	$g_logo_image			= '';
 	/**
 	 * Logo URL link
 	 * @global string $g_logo_url
