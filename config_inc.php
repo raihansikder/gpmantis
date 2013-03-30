@@ -11,7 +11,7 @@ $g_db_password = '1YheZLMSIH6VqOfb';
 	 * change to ON or OFF
 	 * @global int $g_history_default_visible
 	 */
-$g_history_default_visible	= OFF;
+$g_history_default_visible	= ON;
 /**
 	 * Enable Profiles
 	 * @global int $g_enable_profiles

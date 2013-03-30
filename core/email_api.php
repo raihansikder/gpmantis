@@ -1442,12 +1442,13 @@ function email_build_visible_bug_data( $p_user_id, $p_bug_id, $p_message_id ) {
 
 	$t_bug_data['custom_fields'] = custom_field_get_linked_fields( $p_bug_id, $t_user_access_level );
 	$t_bug_data['bugnotes'] = bugnote_get_all_visible_bugnotes( $p_bug_id, $t_user_bugnote_order, $t_user_bugnote_limit, $p_user_id );
-
+	
 	# put history data
+	/*
 	if(( ON == config_get( 'history_default_visible' ) ) && access_compare_level( $t_user_access_level, config_get( 'view_history_threshold' ) ) ) {
 		$t_bug_data['history'] = history_get_raw_events_array( $p_bug_id, $p_user_id );
 	}
-
+	*/
 	# Sponsorship Information
 	if(( config_get( 'enable_sponsorship' ) == ON ) && ( access_has_bug_level( config_get( 'view_sponsorship_total_threshold' ), $p_bug_id, $p_user_id ) ) ) {
 		$t_sponsorship_ids = sponsorship_get_all_ids( $p_bug_id );
