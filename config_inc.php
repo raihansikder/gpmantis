@@ -6,7 +6,12 @@ $g_database_name = 'gpmantis_mnts1';
 $g_db_username = 'gpmantis_mnts1';
 $g_db_password = '1YheZLMSIH6VqOfb';
 
-
+/**
+	 * bug history visible by default when you view a bug
+	 * change to ON or OFF
+	 * @global int $g_history_default_visible
+	 */
+$g_history_default_visible	= OFF;
 		
 # Revised enum string with new 'testing' status
 $g_status_enum_string = '10:new,20:feedback,30:acknowledged,40:confirmed,50:assigned,80:resolved,81:qa_failed,82:qa_passed,90:closed';
