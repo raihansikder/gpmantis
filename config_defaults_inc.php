@@ -1880,7 +1880,7 @@
 	 * the bug is in progress, rather than just put in a person's queue.
 	 * @global int $g_auto_set_status_to_assigned
 	 */
-	$g_auto_set_status_to_assigned	= ON;
+	$g_auto_set_status_to_assigned	= OFF;
 
 	/**
 	 * 'status_enum_workflow' defines the workflow, and reflects a simple
