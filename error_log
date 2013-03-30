@@ -1,0 +1,4 @@
+[30-Mar-2013 10:05:49] PHP Fatal error:  Call to a member function Param() on a non-object in /home/gpmantis/public_html/core/database_api.php on line 420
+[30-Mar-2013 10:05:50] PHP Fatal error:  Call to a member function Param() on a non-object in /home/gpmantis/public_html/core/database_api.php on line 420
+[30-Mar-2013 10:05:58] PHP Fatal error:  Call to a member function Param() on a non-object in /home/gpmantis/public_html/core/database_api.php on line 420
+[30-Mar-2013 10:06:12] PHP Fatal error:  Call to a member function Param() on a non-object in /home/gpmantis/public_html/core/database_api.php on line 420
