@@ -12,8 +12,8 @@ $g_db_password = '1YheZLMSIH6VqOfb';
 $g_status_enum_string = '10:new,20:feedback,30:acknowledged,40:confirmed,50:assigned,80:resolved,81:qa_failed,82:qa_passed,90:closed';
 
 # Status color additions
-$g_status_colors['QA_FAILED'] = '#FF6666';
-$g_status_colors['QA_PASSED'] = '#ACE7AE';
+$g_status_colors['qa_failed'] = '#FF6666';
+$g_status_colors['qa_passed'] = '#ACE7AE';
 
 $g_status_enum_workflow[NEW_]         ='30:acknowledged,20:feedback,40:confirmed,50:assigned,80:resolved';
 $g_status_enum_workflow[FEEDBACK]     ='30:acknowledged,40:confirmed,50:assigned,80:resolved';
