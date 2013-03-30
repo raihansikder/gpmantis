@@ -12,6 +12,11 @@ $g_db_password = '1YheZLMSIH6VqOfb';
 	 * @global int $g_history_default_visible
 	 */
 $g_history_default_visible	= OFF;
+/**
+	 * Enable Profiles
+	 * @global int $g_enable_profiles
+	 */
+$g_enable_profiles = OFF;
 		
 # Revised enum string with new 'testing' status
 $g_status_enum_string = '10:new,20:feedback,30:acknowledged,40:confirmed,50:assigned,80:resolved,81:qa_failed,82:qa_passed,90:closed';
