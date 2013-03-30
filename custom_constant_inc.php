@@ -1,4 +1,5 @@
 <?php
 	# Custom status code
-	define( 'TESTING', 60 );
+	define( 'QA_FAILED', 81 );
+	define( 'QA_PASSED', 82 );
 	?>
