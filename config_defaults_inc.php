@@ -317,31 +317,31 @@
 	 * Administrator Email address
 	 * @global string $g_administrator_email
 	 */
-	$g_administrator_email	= 'administrator@example.com';
+	$g_administrator_email	= 'jakir.hossain@enfatico.com';
 
 	/**
 	 * Webmaster email
 	 * @global string $g_webmaster_email
 	 */
-	$g_webmaster_email		= 'webmaster@example.com';
+	$g_webmaster_email		= 'jakir.hossain@enfatico.com';
 
 	/**
 	 * the sender email, part of 'From: ' header in emails
 	 * @global string $g_from_email
 	 */
- 	$g_from_email			= 'noreply@example.com';
+ 	$g_from_email			= 'noreply@gpmantis.testserver001.tk';
 
 	/**
 	 * the sender name, part of 'From: ' header in emails
 	 * @global string $g_from_name
 	 */
-	$g_from_name			= 'Mantis Bug Tracker';
+	$g_from_name			= 'GP Mantis';
 
 	/**
 	 * the return address for bounced mail
 	 * @global string $g_return_path_email
 	 */
-	$g_return_path_email	= 'admin@example.com';
+	$g_return_path_email	= 'noreply@gpmantis.testserver001.tk';
 
 	/**
 	 * Allow email notification.
@@ -433,7 +433,7 @@
 	 * Whether user's should receive emails for their own actions
 	 * @global int $g_email_receive_own
 	 */
-	$g_email_receive_own	= OFF;
+	$g_email_receive_own	= ON;
 
 	/**
 	 * set to OFF to disable email check
@@ -725,13 +725,13 @@
 	 * browser window title
 	 * @global string $g_window_title
 	 */
-	$g_window_title			= 'MantisBT';
+	$g_window_title			= 'GP-MantisBT';
 
 	/**
 	 * title at top of html page (empty by default, since there is a logo now)
 	 * @global string $g_page_title
 	 */
-	$g_page_title			= '';
+	$g_page_title			= 'GP-MantisBT';
 
 	/**
 	 * Check for admin directory, database upgrades, etc.
@@ -1242,7 +1242,7 @@
 	 * in seconds
 	 * @global int $g_default_redirect_delay
 	 */
-	$g_default_redirect_delay		= 2;
+	$g_default_redirect_delay		= 0;
 
 	/**
 	 *
@@ -3394,7 +3394,7 @@
 	 * it is recommended to set it to OFF.
 	 * @global int $g_rss_enabled
 	 */
-	$g_rss_enabled = ON;
+	$g_rss_enabled = OFF;
 
 
 	/**
