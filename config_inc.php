@@ -6,8 +6,7 @@ $g_database_name = 'gpmantis_mnts1';
 $g_db_username = 'gpmantis_mnts1';
 $g_db_password = '1YheZLMSIH6VqOfb';
 
-	# Custom status code
-	define( 'TESTING', 60 );
+
 		
 # Revised enum string with new 'testing' status
 $g_status_enum_string = '10:new,20:feedback,30:acknowledged,40:confirmed,50:assigned,60:testing,80:resolved,90:closed';
