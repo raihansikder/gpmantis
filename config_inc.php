@@ -25,4 +25,3 @@ $g_status_enum_workflow[RESOLVED]     ='90:closed,20:feedback,50:assigned';
 $g_status_enum_workflow[CLOSED]       ='20:feedback,50:assigned';
 
 ?>
-

@@ -20,3 +20,4 @@ switch( $g_active_language ) {
 		$s_email_notification_title_for_status_bug_testing = 'The following issue is ready for TESTING.';
 		break;
 }
+?>
