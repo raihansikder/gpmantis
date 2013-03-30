@@ -731,7 +731,7 @@
 	 * title at top of html page (empty by default, since there is a logo now)
 	 * @global string $g_page_title
 	 */
-	$g_page_title			= 'GP-MantisBT';
+	$g_page_title			= '';
 
 	/**
 	 * Check for admin directory, database upgrades, etc.
