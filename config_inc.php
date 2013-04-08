@@ -17,6 +17,22 @@ $g_history_default_visible	= ON;
 	 * @global int $g_enable_profiles
 	 */
 $g_enable_profiles = OFF;
+
+	/************
+	 * Due Date *
+	 ************/
+
+	/**
+	 * threshold to update due date submitted
+	 * @global int $g_due_date_update_threshold
+	 */
+	$g_due_date_update_threshold = REPORTER;
+
+	/**
+	 * threshold to see due date
+	 * @global int $g_due_date_view_threshold
+	 */
+	$g_due_date_view_threshold = REPORTER;
 		
 # Revised enum string with new 'testing' status
 $g_status_enum_string = '10:new,20:feedback,30:acknowledged,40:confirmed,50:assigned,80:resolved,81:qa_failed,82:qa_passed,90:closed';
