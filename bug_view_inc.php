@@ -695,21 +695,20 @@
 	# User list sponsoring the bug
 	include( $tpl_mantis_dir . 'bug_sponsorship_list_view_inc.php' );
 
-	# Bug Relationships
-	if ( $tpl_show_relationships_box ) {
-		relationship_view_box ( $tpl_bug->id );
-	}
-
+	echo "<table width='100%'><tr><td align='left' valign='top' width='50%'>";
 	# File upload box
 	if ( $tpl_show_upload_form ) {
 		include( $tpl_mantis_dir . 'bug_file_upload_inc.php' );
 	}
-
+	# Bug Relationships
+	if ( $tpl_show_relationships_box ) {
+		relationship_view_box ( $tpl_bug->id );
+	}
 	# User list monitoring the bug
 	if ( $tpl_show_monitor_box ) {
 		include( $tpl_mantis_dir . 'bug_monitor_list_view_inc.php' );
 	}
-
+	echo "</td><td  align='left' valign='top' width='50%'>";
 	# Bugnotes and "Add Note" box
 	if ( 'ASC' == current_user_get_pref( 'bugnote_order' ) ) {
 		include( $tpl_mantis_dir . 'bugnote_view_inc.php' );
@@ -724,6 +723,7 @@
 
 		include( $tpl_mantis_dir . 'bugnote_view_inc.php' );
 	}
+	echo "</td></tr></table>";	
 
 	# Allow plugins to display stuff after notes
 	event_signal( 'EVENT_VIEW_BUG_EXTRA', array( $f_bug_id ) );
@@ -733,7 +733,7 @@
 		access_has_bug_level( config_get( 'time_tracking_view_threshold' ), $f_bug_id ) ) {
 		include( $tpl_mantis_dir . 'bugnote_stats_inc.php' );
 	}
-
+	
 	# History
 	if ( $tpl_show_history ) {
 		include( $tpl_mantis_dir . 'history_inc.php' );
