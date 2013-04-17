@@ -695,7 +695,7 @@
 	# User list sponsoring the bug
 	include( $tpl_mantis_dir . 'bug_sponsorship_list_view_inc.php' );
 
-	echo "<table width='100%'><tr><td align='left' valign='top' width='50%'>";
+	echo "<table width='100%'><tr><td align='left' valign='top' width='25%'>";
 	# File upload box
 	if ( $tpl_show_upload_form ) {
 		include( $tpl_mantis_dir . 'bug_file_upload_inc.php' );
@@ -708,7 +708,7 @@
 	if ( $tpl_show_monitor_box ) {
 		include( $tpl_mantis_dir . 'bug_monitor_list_view_inc.php' );
 	}
-	echo "</td><td  align='left' valign='top' width='50%'>";
+	echo "</td><td  align='left' valign='top' width='75%'>";
 	# Bugnotes and "Add Note" box
 	if ( 'ASC' == current_user_get_pref( 'bugnote_order' ) ) {
 		include( $tpl_mantis_dir . 'bugnote_view_inc.php' );
